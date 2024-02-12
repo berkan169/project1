@@ -73,48 +73,42 @@ button:hover {
 
 .container {
   display: flex;
-  flex-grow: 1;
   width: 860px;
   margin: 2% auto;
 }
 
-.news {
+.side__bar {
   display: flex;
   align-self: flex-start;
   margin-right: 5%;
 }
 
-.news li {
+.side__bar li {
   font-size: 16px;
   list-style: none;
   margin-bottom: 20px;
 }
 
-.news ul {
+.side__bar ul {
   margin: 0;
   padding-right: 20px;
 }
 
-.news li:hover {
+.side__bar li:hover {
   text-decoration: underline;
 }
 
-.top--content {
-  align-self: flex-start;
-  flex-basis: content;
-}
-
 .banner {
-  width: 55%;
+  max-width: 55%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .banner2 {
   width: 55%;
   height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
+  border-radius: 0.625rem;
+  margin-top: 1.25rem;
 }
 
 .related {
@@ -128,8 +122,8 @@ button:hover {
   display: flex;
   font-size: 19px;
   width: auto;
-  gap: 20px;
-  margin-top: 10px;
+  gap: 1.25rem;
+  margin-top: 0.625rem;
 }
 
 .related p {
@@ -156,7 +150,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  position: relative;
+  min-width: 100vh;
   margin-top: auto;
   bottom: 0;
 }
@@ -169,18 +163,17 @@ footer {
 
 .footer-content li:hover {
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 0.25rem;
 }
 
 .socials {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  font-size: 18px;
+  justify-content: space-around;
+  font-size: 20px;
   font-style: normal;
 }
 
 .socials li {
   text-decoration: none !important;
-  list-style: none;
 }
