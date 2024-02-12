@@ -99,23 +99,22 @@ button:hover {
 }
 
 .banner {
-  max-width: 55%;
+  max-width: 350px;
   height: auto;
   border-radius: 0.625rem;
 }
 
 .banner2 {
-  width: 55%;
+  width: 350px;
   height: auto;
   border-radius: 0.625rem;
-  margin-top: 1.25rem;
 }
 
 .related {
   display: flex;
   font-size: 19px;
   width: auto;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .related2 {
@@ -123,7 +122,11 @@ button:hover {
   font-size: 19px;
   width: auto;
   gap: 1.25rem;
-  margin-top: 0.625rem;
+  margin-top: 40px;
+}
+
+.related2 p {
+  margin: 0 auto;
 }
 
 .related p {
