@@ -74,7 +74,7 @@ button:hover {
   margin: 2% auto; */
   margin-top: 5%;
   display: grid;
-  grid-template-columns: 37% 400px 300px;
+  grid-template-columns: 37% 300px 300px;
   column-gap: 30px;
   row-gap: 20px;
 }
@@ -103,7 +103,7 @@ button:hover {
 }
 
 .banner {
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 10px;
   box-shadow: 0px 3px 10px 5px #0000002a;
   border: 1px solid rgb(255, 255, 255);
